@@ -1,0 +1,37 @@
+p{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+b{
+    color: rgb(225, 173, 255);
+}  
+#banner{
+    width: 10%;
+}
+header{
+    background-color: rgb(179, 197, 96);
+}
+
+main{
+    background-color: rgb(44, 40, 46);
+}
+footer{
+    background-color: rgb(179, 197, 96);
+}
+.img-banner{
+    text-align: center;    
+}
+.principal{
+    text-align: center;
+}
