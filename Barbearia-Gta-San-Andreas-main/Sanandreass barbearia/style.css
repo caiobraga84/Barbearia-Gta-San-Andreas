@@ -11,7 +11,7 @@ nav li{
 }
 nav a{
     text-transform: uppercase;
-    color: rgb(88, 14, 185);
+    color: rgb(108, 14, 185);
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
@@ -43,7 +43,7 @@ nav a:hover {
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
-    border: 2px solid black;
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
 }
 .servicos li:hover{
@@ -76,7 +76,7 @@ nav a:hover {
     margin-top: 10px;
 }
 footer{
-    background-color: rgb(19, 4, 75);
+    background-color: rgb(9, 4, 75);
     text-align: center;
     padding: 40px 0;
 }
@@ -84,7 +84,7 @@ footer img{
     width: 200px;
 }
 .copyright{
-    color: black;
+    color: green;
     font-size: 13px;
     margin: 20px 0 0;
 }
@@ -108,5 +108,52 @@ input-padrão {
 }
 .checkbox{
     margin:20px 0;
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background-color: green;
+    color: white;
+    font-weight:  bold;
+    font-size: 18px;
+    border: nome;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+ }
+
+.enviar:hover{
+    background-color: chartreuse;
+    transform: scale(1.2);
+}
+table{
+    margin:  20px 0 40px;
+
+ }
+
+thead{
+    background-color: rgb(0, 255, 179);
+    color: white;
+    font-weight: bold;
 
 }
+
+td, th{
+    border: 1px solid black;
+    padding: 8px 15px;
+
+}
+
+/* css da página principal */
+
+#banner{
+    width:100%;
+}
+
+.principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
